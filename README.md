@@ -94,5 +94,3 @@ See the [LICENSE](LICENSE) file for more details.
 If you encounter issues or have feedback, please open an issue on the [GitHub Issues](https://github.com/kemkum53/LOA_CraftOptimizer/issues) page.
 
 ---
-
-*Note: Replace `kemkum53` with your actual GitHub username before publishing.*
