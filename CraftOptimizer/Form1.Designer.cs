@@ -105,6 +105,7 @@
             // 
             // pic_mat1
             // 
+            pic_mat1.BackColor = Color.FromArgb(15, 52, 68);
             pic_mat1.Image = (Image)resources.GetObject("pic_mat1.Image");
             pic_mat1.Location = new Point(11, 53);
             pic_mat1.Name = "pic_mat1";
@@ -115,6 +116,7 @@
             // 
             // pic_mat2
             // 
+            pic_mat2.BackColor = Color.FromArgb(48, 58, 18);
             pic_mat2.Image = (Image)resources.GetObject("pic_mat2.Image");
             pic_mat2.Location = new Point(11, 84);
             pic_mat2.Name = "pic_mat2";
@@ -125,6 +127,7 @@
             // 
             // pic_mat3
             // 
+            pic_mat3.BackColor = Color.DarkGray;
             pic_mat3.Image = (Image)resources.GetObject("pic_mat3.Image");
             pic_mat3.Location = new Point(11, 115);
             pic_mat3.Name = "pic_mat3";
@@ -135,6 +138,7 @@
             // 
             // pic_mat2_1
             // 
+            pic_mat2_1.BackColor = Color.FromArgb(48, 58, 18);
             pic_mat2_1.Image = (Image)resources.GetObject("pic_mat2_1.Image");
             pic_mat2_1.Location = new Point(0, 0);
             pic_mat2_1.Margin = new Padding(0);
@@ -278,6 +282,7 @@
             // 
             // pic_mat3_1
             // 
+            pic_mat3_1.BackColor = Color.DarkGray;
             pic_mat3_1.Image = (Image)resources.GetObject("pic_mat3_1.Image");
             pic_mat3_1.Location = new Point(0, 0);
             pic_mat3_1.Margin = new Padding(0);
@@ -317,6 +322,7 @@
             // 
             // pic_mat1_1
             // 
+            pic_mat1_1.BackColor = Color.FromArgb(15, 52, 68);
             pic_mat1_1.Image = (Image)resources.GetObject("pic_mat1_1.Image");
             pic_mat1_1.Location = new Point(50, 0);
             pic_mat1_1.Margin = new Padding(0);
@@ -367,6 +373,7 @@
             // 
             // pic_mat2_2
             // 
+            pic_mat2_2.BackColor = Color.FromArgb(48, 58, 18);
             pic_mat2_2.Image = (Image)resources.GetObject("pic_mat2_2.Image");
             pic_mat2_2.Location = new Point(50, 0);
             pic_mat2_2.Margin = new Padding(0);
