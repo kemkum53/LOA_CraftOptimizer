@@ -13,7 +13,7 @@ In *Lost Ark*, **Oreha Fusion Materials** are essential for Tier 4 gear honing. 
 - **Market Purchase**: Buying directly from the in-game market, often at a premium.
 
 Efficient crafting requires balancing the use of gathered materials and conversions to maximize output while minimizing resource expenditure.  
-(Source: [invenglobal.com](https://lostarkcodex.com/us/item/6861012/))
+(Source: [lostarkcodex.com](https://lostarkcodex.com/us/item/6861012/))
 
 ---
 
@@ -94,5 +94,3 @@ See the [LICENSE](LICENSE) file for more details.
 If you encounter issues or have feedback, please open an issue on the [GitHub Issues](https://github.com/kemkum53/LOA_CraftOptimizer/issues) page.
 
 ---
-
-*Note: Replace `kemkum53` with your actual GitHub username before publishing.*
