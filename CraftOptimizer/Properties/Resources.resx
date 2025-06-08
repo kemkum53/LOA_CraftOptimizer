@@ -121,76 +121,133 @@
   <data name="abidos" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\abidos.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="exc_mat1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="exc_tradeable_mat1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\abidos_relic.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="exc_mat2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="exc_tradeable_mat2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\rare_relic.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="exc_mat3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="exc_tradeable_mat3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ancient_relic.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="exc_mat4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="exc_tradeable_mat4" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\powder.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="fis_mat1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="fis_tradeable_mat1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\fis_mat1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="fis_mat2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="fis_tradeable_mat2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\fis_mat2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="fis_mat3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="fis_tradeable_mat3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\fis_mat3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="fis_mat4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="fis_tradeable_mat4" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\fis_mat4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="fro_mat1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="fro_tradeable_mat1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\fro_mat1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="fro_mat2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="fro_tradeable_mat2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\fro_mat2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="fro_mat3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="fro_tradeable_mat3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\fro_mat3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="fro_mat4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="fro_tradeable_mat4" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\fro_mat4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="hun_mat1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="hun_tradeable_mat1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\hun_mat1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="hun_mat2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="hun_tradeable_mat2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\hun_mat2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="hun_mat3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="hun_tradeable_mat3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\hun_mat3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="hun_mat4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="hun_tradeable_mat4" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\hun_mat4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="log_mat1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\log_mat1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="log_mat2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="log_tradeable_mat2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\log_mat2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="log_mat3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\log_mat3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="log_mat4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="log_tradeable_mat4" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\log_mat4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="min_mat1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="min_tradeable_mat1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\min_mat1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="min_mat2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="min_tradeable_mat2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\min_mat2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="min_mat3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="min_tradeable_mat3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\min_mat3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="min_mat4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="min_tradeable_mat4" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\min_mat4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="log_tradeable_mat1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\log_mat1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="log_tradeable_mat3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\log_mat3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="log_tradeable_mat5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\log_tradeable_mat5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fro_nontradeable_mat3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\all_quest_01_219.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fro_nontradeable_mat2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\all_quest_01_220.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fro_nontradeable_mat1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lifelevel_02_56.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="log_nontradeable_mat1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lifelevel_02_57.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="log_nontradeable_mat3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\use_1_153.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="log_nontradeable_mat2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\use_1_154.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="min_nontradeable_mat1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lifelevel_02_58.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="min_nontradeable_mat3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\all_quest_01_188.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="min_nontradeable_mat2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\all_quest_01_198.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hun_nontradeable_mat1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lifelevel_02_60.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hun_nontradeable_mat2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\all_quest_02_125.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hun_nontradeable_mat3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\all_quest_02_128.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fis_nontradeable_mat1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lifelevel_02_53.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fis_nontradeable_mat2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\use_1_130.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fis_nontradeable_mat3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\all_quest_03_184.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="exc_nontradeable_mat1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lifelevel_02_55.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="exc_nontradeable_mat3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\use_2_28.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="exc_nontradeable_mat2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\use_2_54.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

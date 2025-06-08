@@ -67,6 +67,7 @@
             tbx_mat4 = new TextBox();
             pic_mat4 = new PictureBox();
             pictureBox1 = new PictureBox();
+            chx_tradeable = new CheckBox();
             ((System.ComponentModel.ISupportInitialize)pic_mat1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pic_mat2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pic_mat3).BeginInit();
@@ -95,9 +96,9 @@
             // 
             // tbx_mat1
             // 
-            tbx_mat1.Location = new Point(42, 55);
+            tbx_mat1.Location = new Point(43, 58);
             tbx_mat1.Name = "tbx_mat1";
-            tbx_mat1.Size = new Size(51, 23);
+            tbx_mat1.Size = new Size(71, 23);
             tbx_mat1.TabIndex = 1;
             tbx_mat1.Text = "0";
             tbx_mat1.TextAlign = HorizontalAlignment.Center;
@@ -107,7 +108,7 @@
             // 
             pic_mat1.BackColor = Color.FromArgb(15, 52, 68);
             pic_mat1.Image = (Image)resources.GetObject("pic_mat1.Image");
-            pic_mat1.Location = new Point(11, 53);
+            pic_mat1.Location = new Point(12, 56);
             pic_mat1.Name = "pic_mat1";
             pic_mat1.Size = new Size(25, 25);
             pic_mat1.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -118,7 +119,7 @@
             // 
             pic_mat2.BackColor = Color.FromArgb(48, 58, 18);
             pic_mat2.Image = (Image)resources.GetObject("pic_mat2.Image");
-            pic_mat2.Location = new Point(11, 84);
+            pic_mat2.Location = new Point(12, 87);
             pic_mat2.Name = "pic_mat2";
             pic_mat2.Size = new Size(25, 25);
             pic_mat2.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -129,7 +130,7 @@
             // 
             pic_mat3.BackColor = Color.DarkGray;
             pic_mat3.Image = (Image)resources.GetObject("pic_mat3.Image");
-            pic_mat3.Location = new Point(11, 115);
+            pic_mat3.Location = new Point(12, 118);
             pic_mat3.Name = "pic_mat3";
             pic_mat3.Size = new Size(25, 25);
             pic_mat3.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -150,9 +151,9 @@
             // 
             // tbx_mat2
             // 
-            tbx_mat2.Location = new Point(42, 86);
+            tbx_mat2.Location = new Point(43, 89);
             tbx_mat2.Name = "tbx_mat2";
-            tbx_mat2.Size = new Size(51, 23);
+            tbx_mat2.Size = new Size(71, 23);
             tbx_mat2.TabIndex = 2;
             tbx_mat2.Text = "0";
             tbx_mat2.TextAlign = HorizontalAlignment.Center;
@@ -160,9 +161,9 @@
             // 
             // tbx_mat3
             // 
-            tbx_mat3.Location = new Point(42, 117);
+            tbx_mat3.Location = new Point(43, 120);
             tbx_mat3.Name = "tbx_mat3";
-            tbx_mat3.Size = new Size(51, 23);
+            tbx_mat3.Size = new Size(71, 23);
             tbx_mat3.TabIndex = 3;
             tbx_mat3.Text = "0";
             tbx_mat3.TextAlign = HorizontalAlignment.Center;
@@ -171,7 +172,7 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(111, 35);
+            label2.Location = new Point(167, 38);
             label2.Name = "label2";
             label2.Size = new Size(77, 15);
             label2.TabIndex = 11;
@@ -197,7 +198,7 @@
             conv_1.Controls.Add(pic_mat4_2, 2, 0);
             conv_1.Controls.Add(pic_mat2_1, 0, 0);
             conv_1.Controls.Add(pictureBox5, 1, 0);
-            conv_1.Location = new Point(111, 53);
+            conv_1.Location = new Point(169, 56);
             conv_1.Name = "conv_1";
             conv_1.RowCount = 1;
             conv_1.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
@@ -261,7 +262,7 @@
             conv_2.Controls.Add(pic_mat4_3, 2, 0);
             conv_2.Controls.Add(pic_mat3_1, 0, 0);
             conv_2.Controls.Add(pictureBox12, 1, 0);
-            conv_2.Location = new Point(111, 81);
+            conv_2.Location = new Point(169, 87);
             conv_2.Name = "conv_2";
             conv_2.RowCount = 1;
             conv_2.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
@@ -312,7 +313,7 @@
             conv_3.Controls.Add(pic_mat1_1, 2, 0);
             conv_3.Controls.Add(pic_mat4_4, 0, 0);
             conv_3.Controls.Add(pictureBox15, 1, 0);
-            conv_3.Location = new Point(111, 109);
+            conv_3.Location = new Point(169, 115);
             conv_3.Name = "conv_3";
             conv_3.RowCount = 1;
             conv_3.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
@@ -363,7 +364,7 @@
             conv_5.Controls.Add(pic_mat2_2, 2, 0);
             conv_5.Controls.Add(pic_mat4_1, 0, 0);
             conv_5.Controls.Add(pictureBox18, 1, 0);
-            conv_5.Location = new Point(111, 137);
+            conv_5.Location = new Point(169, 143);
             conv_5.Name = "conv_5";
             conv_5.RowCount = 1;
             conv_5.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
@@ -409,7 +410,7 @@
             // 
             lbl_conv1.AutoSize = true;
             lbl_conv1.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lbl_conv1.Location = new Point(189, 58);
+            lbl_conv1.Location = new Point(250, 61);
             lbl_conv1.Name = "lbl_conv1";
             lbl_conv1.Size = new Size(21, 15);
             lbl_conv1.TabIndex = 18;
@@ -419,7 +420,7 @@
             // 
             lbl_conv2.AutoSize = true;
             lbl_conv2.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lbl_conv2.Location = new Point(189, 86);
+            lbl_conv2.Location = new Point(247, 92);
             lbl_conv2.Name = "lbl_conv2";
             lbl_conv2.Size = new Size(21, 15);
             lbl_conv2.TabIndex = 19;
@@ -429,7 +430,7 @@
             // 
             lbl_conv3.AutoSize = true;
             lbl_conv3.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lbl_conv3.Location = new Point(189, 115);
+            lbl_conv3.Location = new Point(247, 121);
             lbl_conv3.Name = "lbl_conv3";
             lbl_conv3.Size = new Size(21, 15);
             lbl_conv3.TabIndex = 20;
@@ -439,7 +440,7 @@
             // 
             lbl_conv4.AutoSize = true;
             lbl_conv4.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lbl_conv4.Location = new Point(189, 142);
+            lbl_conv4.Location = new Point(247, 148);
             lbl_conv4.Name = "lbl_conv4";
             lbl_conv4.Size = new Size(21, 15);
             lbl_conv4.TabIndex = 21;
@@ -447,7 +448,7 @@
             // 
             // button1
             // 
-            button1.Location = new Point(12, 177);
+            button1.Location = new Point(12, 182);
             button1.Name = "button1";
             button1.Size = new Size(82, 23);
             button1.TabIndex = 5;
@@ -459,7 +460,7 @@
             // 
             lbl_total.AutoSize = true;
             lbl_total.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lbl_total.Location = new Point(189, 171);
+            lbl_total.Location = new Point(247, 186);
             lbl_total.Name = "lbl_total";
             lbl_total.Size = new Size(21, 15);
             lbl_total.TabIndex = 23;
@@ -468,7 +469,7 @@
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(11, 35);
+            label3.Location = new Point(11, 38);
             label3.Name = "label3";
             label3.Size = new Size(82, 15);
             label3.TabIndex = 25;
@@ -479,9 +480,9 @@
             cmx_farmType.DropDownStyle = ComboBoxStyle.DropDownList;
             cmx_farmType.FormattingEnabled = true;
             cmx_farmType.Items.AddRange(new object[] { "Foraging", "Logging", "Mining", "Hunting", "Fishing", "Excavating" });
-            cmx_farmType.Location = new Point(80, 9);
+            cmx_farmType.Location = new Point(80, 12);
             cmx_farmType.Name = "cmx_farmType";
-            cmx_farmType.Size = new Size(128, 23);
+            cmx_farmType.Size = new Size(108, 23);
             cmx_farmType.TabIndex = 0;
             cmx_farmType.SelectedIndexChanged += cmx_farmType_SelectedIndexChanged;
             // 
@@ -496,17 +497,17 @@
             // 
             // tbx_mat4
             // 
-            tbx_mat4.Location = new Point(42, 148);
+            tbx_mat4.Location = new Point(43, 151);
             tbx_mat4.Name = "tbx_mat4";
-            tbx_mat4.Size = new Size(51, 23);
+            tbx_mat4.Size = new Size(71, 23);
             tbx_mat4.TabIndex = 4;
             tbx_mat4.Text = "0";
             tbx_mat4.TextAlign = HorizontalAlignment.Center;
             // 
             // pic_mat4
             // 
-            pic_mat4.Image = Properties.Resources.exc_mat4;
-            pic_mat4.Location = new Point(11, 146);
+            pic_mat4.Image = Properties.Resources.exc_tradeable_mat4;
+            pic_mat4.Location = new Point(12, 149);
             pic_mat4.Name = "pic_mat4";
             pic_mat4.Size = new Size(25, 25);
             pic_mat4.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -516,18 +517,32 @@
             // pictureBox1
             // 
             pictureBox1.Image = Properties.Resources.abidos;
-            pictureBox1.Location = new Point(161, 165);
+            pictureBox1.Location = new Point(219, 180);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(25, 25);
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox1.TabIndex = 30;
             pictureBox1.TabStop = false;
             // 
+            // chx_tradeable
+            // 
+            chx_tradeable.AutoSize = true;
+            chx_tradeable.Checked = true;
+            chx_tradeable.CheckState = CheckState.Checked;
+            chx_tradeable.Location = new Point(194, 14);
+            chx_tradeable.Name = "chx_tradeable";
+            chx_tradeable.Size = new Size(77, 19);
+            chx_tradeable.TabIndex = 31;
+            chx_tradeable.Text = "Tradeable";
+            chx_tradeable.UseVisualStyleBackColor = true;
+            chx_tradeable.CheckedChanged += chx_tradeable_CheckedChanged;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(222, 209);
+            ClientSize = new Size(277, 217);
+            Controls.Add(chx_tradeable);
             Controls.Add(pictureBox1);
             Controls.Add(tbx_mat4);
             Controls.Add(pic_mat4);
@@ -625,5 +640,6 @@
         private TextBox tbx_mat4;
         private PictureBox pic_mat4;
         private PictureBox pictureBox1;
+        private CheckBox chx_tradeable;
     }
 }

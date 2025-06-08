@@ -16,7 +16,7 @@ public partial class Form1 : Form
         var type = (FarmType)Enum.Parse(typeof(FarmType), cmx_farmType.Items[cmx_farmType.SelectedIndex].ToString());
         Storage.Default.DefaultFarmtype = type.ToString();
         Storage.Default.Save();
-        LoadImages(type);
+        LoadImages(type, chx_tradeable.Checked);
     }
 
     private void button1_Click(object sender, EventArgs e)
@@ -94,99 +94,195 @@ public partial class Form1 : Form
             e.Handled = true;
     }
 
-    private void LoadImages(FarmType type)
+    private void chx_tradeable_CheckedChanged(object sender, EventArgs e)
     {
-        switch (type)
+        LoadImages((FarmType)cmx_farmType.SelectedIndex, chx_tradeable.Checked);
+    }
+
+    private void LoadImages(FarmType type, bool isTradeable)
+    {
+        switch (type, isTradeable)
         {
-            case FarmType.Foraging:
-                pic_mat1.Image = Resources.fro_mat1;
-                pic_mat1_1.Image = Resources.fro_mat1;
-                pic_mat2.Image = Resources.fro_mat2;
-                pic_mat2_1.Image = Resources.fro_mat2;
-                pic_mat2_1.Image = Resources.fro_mat2;
-                pic_mat2_2.Image = Resources.fro_mat2;
-                pic_mat3.Image = Resources.fro_mat3;
-                pic_mat3_1.Image = Resources.fro_mat3;
-                pic_mat4.Image = Resources.fro_mat4;
-                pic_mat4_1.Image = Resources.fro_mat4;
-                pic_mat4_2.Image = Resources.fro_mat4;
-                pic_mat4_3.Image = Resources.fro_mat4;
-                pic_mat4_4.Image = Resources.fro_mat4;
+            case (FarmType.Foraging, true):
+                pic_mat1.Image = Resources.fro_tradeable_mat1;
+                pic_mat1_1.Image = Resources.fro_tradeable_mat1;
+                pic_mat2.Image = Resources.fro_tradeable_mat2;
+                pic_mat2_1.Image = Resources.fro_tradeable_mat2;
+                pic_mat2_1.Image = Resources.fro_tradeable_mat2;
+                pic_mat2_2.Image = Resources.fro_tradeable_mat2;
+                pic_mat3.Image = Resources.fro_tradeable_mat3;
+                pic_mat3_1.Image = Resources.fro_tradeable_mat3;
+                pic_mat4.Image = Resources.fro_tradeable_mat4;
+                pic_mat4_1.Image = Resources.fro_tradeable_mat4;
+                pic_mat4_2.Image = Resources.fro_tradeable_mat4;
+                pic_mat4_3.Image = Resources.fro_tradeable_mat4;
+                pic_mat4_4.Image = Resources.fro_tradeable_mat4;
                 break;
-            case FarmType.Logging:
-                pic_mat1.Image = Resources.log_mat1;
-                pic_mat1_1.Image = Resources.log_mat1;
-                pic_mat2.Image = Resources.log_mat2;
-                pic_mat2_1.Image = Resources.log_mat2;
-                pic_mat2_1.Image = Resources.log_mat2;
-                pic_mat2_2.Image = Resources.log_mat2;
-                pic_mat3.Image = Resources.log_mat3;
-                pic_mat3_1.Image = Resources.log_mat3;
-                pic_mat4.Image = Resources.log_mat4;
-                pic_mat4_1.Image = Resources.log_mat4;
-                pic_mat4_2.Image = Resources.log_mat4;
-                pic_mat4_3.Image = Resources.log_mat4;
-                pic_mat4_4.Image = Resources.log_mat4;
+            case (FarmType.Logging, true):
+                pic_mat1.Image = Resources.log_tradeable_mat1;
+                pic_mat1_1.Image = Resources.log_tradeable_mat1;
+                pic_mat2.Image = Resources.log_tradeable_mat2;
+                pic_mat2_1.Image = Resources.log_tradeable_mat2;
+                pic_mat2_1.Image = Resources.log_tradeable_mat2;
+                pic_mat2_2.Image = Resources.log_tradeable_mat2;
+                pic_mat3.Image = Resources.log_tradeable_mat3;
+                pic_mat3_1.Image = Resources.log_tradeable_mat3;
+                pic_mat4.Image = Resources.log_tradeable_mat4;
+                pic_mat4_1.Image = Resources.log_tradeable_mat4;
+                pic_mat4_2.Image = Resources.log_tradeable_mat4;
+                pic_mat4_3.Image = Resources.log_tradeable_mat4;
+                pic_mat4_4.Image = Resources.log_tradeable_mat4;
                 break;
-            case FarmType.Mining:
-                pic_mat1.Image = Resources.min_mat1;
-                pic_mat1_1.Image = Resources.min_mat1;
-                pic_mat2.Image = Resources.min_mat2;
-                pic_mat2_1.Image = Resources.min_mat2;
-                pic_mat2_1.Image = Resources.min_mat2;
-                pic_mat2_2.Image = Resources.min_mat2;
-                pic_mat3.Image = Resources.min_mat3;
-                pic_mat3_1.Image = Resources.min_mat3;
-                pic_mat4.Image = Resources.min_mat4;
-                pic_mat4_1.Image = Resources.min_mat4;
-                pic_mat4_2.Image = Resources.min_mat4;
-                pic_mat4_3.Image = Resources.min_mat4;
-                pic_mat4_4.Image = Resources.min_mat4;
+            case (FarmType.Mining, true):
+                pic_mat1.Image = Resources.min_tradeable_mat1;
+                pic_mat1_1.Image = Resources.min_tradeable_mat1;
+                pic_mat2.Image = Resources.min_tradeable_mat2;
+                pic_mat2_1.Image = Resources.min_tradeable_mat2;
+                pic_mat2_1.Image = Resources.min_tradeable_mat2;
+                pic_mat2_2.Image = Resources.min_tradeable_mat2;
+                pic_mat3.Image = Resources.min_tradeable_mat3;
+                pic_mat3_1.Image = Resources.min_tradeable_mat3;
+                pic_mat4.Image = Resources.min_tradeable_mat4;
+                pic_mat4_1.Image = Resources.min_tradeable_mat4;
+                pic_mat4_2.Image = Resources.min_tradeable_mat4;
+                pic_mat4_3.Image = Resources.min_tradeable_mat4;
+                pic_mat4_4.Image = Resources.min_tradeable_mat4;
                 break;
-            case FarmType.Hunting:
-                pic_mat1.Image = Resources.hun_mat1;
-                pic_mat1_1.Image = Resources.hun_mat1;
-                pic_mat2.Image = Resources.hun_mat2;
-                pic_mat2_1.Image = Resources.hun_mat2;
-                pic_mat2_1.Image = Resources.hun_mat2;
-                pic_mat2_2.Image = Resources.hun_mat2;
-                pic_mat3.Image = Resources.hun_mat3;
-                pic_mat3_1.Image = Resources.hun_mat3;
-                pic_mat4.Image = Resources.hun_mat4;
-                pic_mat4_1.Image = Resources.hun_mat4;
-                pic_mat4_2.Image = Resources.hun_mat4;
-                pic_mat4_3.Image = Resources.hun_mat4;
-                pic_mat4_4.Image = Resources.hun_mat4;
+            case (FarmType.Hunting, true):
+                pic_mat1.Image = Resources.hun_tradeable_mat1;
+                pic_mat1_1.Image = Resources.hun_tradeable_mat1;
+                pic_mat2.Image = Resources.hun_tradeable_mat2;
+                pic_mat2_1.Image = Resources.hun_tradeable_mat2;
+                pic_mat2_1.Image = Resources.hun_tradeable_mat2;
+                pic_mat2_2.Image = Resources.hun_tradeable_mat2;
+                pic_mat3.Image = Resources.hun_tradeable_mat3;
+                pic_mat3_1.Image = Resources.hun_tradeable_mat3;
+                pic_mat4.Image = Resources.hun_tradeable_mat4;
+                pic_mat4_1.Image = Resources.hun_tradeable_mat4;
+                pic_mat4_2.Image = Resources.hun_tradeable_mat4;
+                pic_mat4_3.Image = Resources.hun_tradeable_mat4;
+                pic_mat4_4.Image = Resources.hun_tradeable_mat4;
                 break;
-            case FarmType.Fishing:
-                pic_mat1.Image = Resources.fis_mat1;
-                pic_mat1_1.Image = Resources.fis_mat1;
-                pic_mat2.Image = Resources.fis_mat2;
-                pic_mat2_1.Image = Resources.fis_mat2;
-                pic_mat2_1.Image = Resources.fis_mat2;
-                pic_mat2_2.Image = Resources.fis_mat2;
-                pic_mat3.Image = Resources.fis_mat3;
-                pic_mat3_1.Image = Resources.fis_mat3;
-                pic_mat4.Image = Resources.fis_mat4;
-                pic_mat4_1.Image = Resources.fis_mat4;
-                pic_mat4_2.Image = Resources.fis_mat4;
-                pic_mat4_3.Image = Resources.fis_mat4;
-                pic_mat4_4.Image = Resources.fis_mat4;
+            case (FarmType.Fishing, true):
+                pic_mat1.Image = Resources.fis_tradeable_mat1;
+                pic_mat1_1.Image = Resources.fis_tradeable_mat1;
+                pic_mat2.Image = Resources.fis_tradeable_mat2;
+                pic_mat2_1.Image = Resources.fis_tradeable_mat2;
+                pic_mat2_1.Image = Resources.fis_tradeable_mat2;
+                pic_mat2_2.Image = Resources.fis_tradeable_mat2;
+                pic_mat3.Image = Resources.fis_tradeable_mat3;
+                pic_mat3_1.Image = Resources.fis_tradeable_mat3;
+                pic_mat4.Image = Resources.fis_tradeable_mat4;
+                pic_mat4_1.Image = Resources.fis_tradeable_mat4;
+                pic_mat4_2.Image = Resources.fis_tradeable_mat4;
+                pic_mat4_3.Image = Resources.fis_tradeable_mat4;
+                pic_mat4_4.Image = Resources.fis_tradeable_mat4;
                 break;
-            case FarmType.Excavating:
-                pic_mat1.Image = Resources.exc_mat1;
-                pic_mat1_1.Image = Resources.exc_mat1;
-                pic_mat2.Image = Resources.exc_mat2;
-                pic_mat2_1.Image = Resources.exc_mat2;
-                pic_mat2_1.Image = Resources.exc_mat2;
-                pic_mat2_2.Image = Resources.exc_mat2;
-                pic_mat3.Image = Resources.exc_mat3;
-                pic_mat3_1.Image = Resources.exc_mat3;
-                pic_mat4.Image = Resources.exc_mat4;
-                pic_mat4_1.Image = Resources.exc_mat4;
-                pic_mat4_2.Image = Resources.exc_mat4;
-                pic_mat4_3.Image = Resources.exc_mat4;
-                pic_mat4_4.Image = Resources.exc_mat4;
+            case (FarmType.Excavating, true):
+                pic_mat1.Image = Resources.exc_tradeable_mat1;
+                pic_mat1_1.Image = Resources.exc_tradeable_mat1;
+                pic_mat2.Image = Resources.exc_tradeable_mat2;
+                pic_mat2_1.Image = Resources.exc_tradeable_mat2;
+                pic_mat2_1.Image = Resources.exc_tradeable_mat2;
+                pic_mat2_2.Image = Resources.exc_tradeable_mat2;
+                pic_mat3.Image = Resources.exc_tradeable_mat3;
+                pic_mat3_1.Image = Resources.exc_tradeable_mat3;
+                pic_mat4.Image = Resources.exc_tradeable_mat4;
+                pic_mat4_1.Image = Resources.exc_tradeable_mat4;
+                pic_mat4_2.Image = Resources.exc_tradeable_mat4;
+                pic_mat4_3.Image = Resources.exc_tradeable_mat4;
+                pic_mat4_4.Image = Resources.exc_tradeable_mat4;
+                break;
+
+            case (FarmType.Foraging, false):
+                pic_mat1.Image = Resources.fro_nontradeable_mat1;
+                pic_mat1_1.Image = Resources.fro_nontradeable_mat1;
+                pic_mat2.Image = Resources.fro_nontradeable_mat2;
+                pic_mat2_1.Image = Resources.fro_nontradeable_mat2;
+                pic_mat2_1.Image = Resources.fro_nontradeable_mat2;
+                pic_mat2_2.Image = Resources.fro_nontradeable_mat2;
+                pic_mat3.Image = Resources.fro_nontradeable_mat3;
+                pic_mat3_1.Image = Resources.fro_nontradeable_mat3;
+                pic_mat4.Image = Resources.fro_tradeable_mat4;
+                pic_mat4_1.Image = Resources.fro_tradeable_mat4;
+                pic_mat4_2.Image = Resources.fro_tradeable_mat4;
+                pic_mat4_3.Image = Resources.fro_tradeable_mat4;
+                pic_mat4_4.Image = Resources.fro_tradeable_mat4;
+                break;
+            case (FarmType.Logging, false):
+                pic_mat1.Image = Resources.log_nontradeable_mat1;
+                pic_mat1_1.Image = Resources.log_nontradeable_mat1;
+                pic_mat2.Image = Resources.log_nontradeable_mat2;
+                pic_mat2_1.Image = Resources.log_nontradeable_mat2;
+                pic_mat2_1.Image = Resources.log_nontradeable_mat2;
+                pic_mat2_2.Image = Resources.log_nontradeable_mat2;
+                pic_mat3.Image = Resources.log_nontradeable_mat3;
+                pic_mat3_1.Image = Resources.log_nontradeable_mat3;
+                pic_mat4.Image = Resources.log_tradeable_mat4;
+                pic_mat4_1.Image = Resources.log_tradeable_mat4;
+                pic_mat4_2.Image = Resources.log_tradeable_mat4;
+                pic_mat4_3.Image = Resources.log_tradeable_mat4;
+                pic_mat4_4.Image = Resources.log_tradeable_mat4;
+                break;
+            case (FarmType.Mining, false):
+                pic_mat1.Image = Resources.min_nontradeable_mat1;
+                pic_mat1_1.Image = Resources.min_nontradeable_mat1;
+                pic_mat2.Image = Resources.min_nontradeable_mat2;
+                pic_mat2_1.Image = Resources.min_nontradeable_mat2;
+                pic_mat2_1.Image = Resources.min_nontradeable_mat2;
+                pic_mat2_2.Image = Resources.min_nontradeable_mat2;
+                pic_mat3.Image = Resources.min_nontradeable_mat3;
+                pic_mat3_1.Image = Resources.min_nontradeable_mat3;
+                pic_mat4.Image = Resources.min_tradeable_mat4;
+                pic_mat4_1.Image = Resources.min_tradeable_mat4;
+                pic_mat4_2.Image = Resources.min_tradeable_mat4;
+                pic_mat4_3.Image = Resources.min_tradeable_mat4;
+                pic_mat4_4.Image = Resources.min_tradeable_mat4;
+                break;
+            case (FarmType.Hunting, false):
+                pic_mat1.Image = Resources.hun_nontradeable_mat1;
+                pic_mat1_1.Image = Resources.hun_nontradeable_mat1;
+                pic_mat2.Image = Resources.hun_nontradeable_mat2;
+                pic_mat2_1.Image = Resources.hun_nontradeable_mat2;
+                pic_mat2_1.Image = Resources.hun_nontradeable_mat2;
+                pic_mat2_2.Image = Resources.hun_nontradeable_mat2;
+                pic_mat3.Image = Resources.hun_nontradeable_mat3;
+                pic_mat3_1.Image = Resources.hun_nontradeable_mat3;
+                pic_mat4.Image = Resources.hun_tradeable_mat4;
+                pic_mat4_1.Image = Resources.hun_tradeable_mat4;
+                pic_mat4_2.Image = Resources.hun_tradeable_mat4;
+                pic_mat4_3.Image = Resources.hun_tradeable_mat4;
+                pic_mat4_4.Image = Resources.hun_tradeable_mat4;
+                break;
+            case (FarmType.Fishing, false):
+                pic_mat1.Image = Resources.fis_nontradeable_mat1;
+                pic_mat1_1.Image = Resources.fis_nontradeable_mat1;
+                pic_mat2.Image = Resources.fis_nontradeable_mat2;
+                pic_mat2_1.Image = Resources.fis_nontradeable_mat2;
+                pic_mat2_1.Image = Resources.fis_nontradeable_mat2;
+                pic_mat2_2.Image = Resources.fis_nontradeable_mat2;
+                pic_mat3.Image = Resources.fis_nontradeable_mat3;
+                pic_mat3_1.Image = Resources.fis_nontradeable_mat3;
+                pic_mat4.Image = Resources.fis_tradeable_mat4;
+                pic_mat4_1.Image = Resources.fis_tradeable_mat4;
+                pic_mat4_2.Image = Resources.fis_tradeable_mat4;
+                pic_mat4_3.Image = Resources.fis_tradeable_mat4;
+                pic_mat4_4.Image = Resources.fis_tradeable_mat4;
+                break;
+            case (FarmType.Excavating, false):
+                pic_mat1.Image = Resources.exc_nontradeable_mat1;
+                pic_mat1_1.Image = Resources.exc_nontradeable_mat1;
+                pic_mat2.Image = Resources.exc_nontradeable_mat2;
+                pic_mat2_1.Image = Resources.exc_nontradeable_mat2;
+                pic_mat2_1.Image = Resources.exc_nontradeable_mat2;
+                pic_mat2_2.Image = Resources.exc_nontradeable_mat2;
+                pic_mat3.Image = Resources.exc_nontradeable_mat3;
+                pic_mat3_1.Image = Resources.exc_nontradeable_mat3;
+                pic_mat4.Image = Resources.exc_tradeable_mat4;
+                pic_mat4_1.Image = Resources.exc_tradeable_mat4;
+                pic_mat4_2.Image = Resources.exc_tradeable_mat4;
+                pic_mat4_3.Image = Resources.exc_tradeable_mat4;
+                pic_mat4_4.Image = Resources.exc_tradeable_mat4;
                 break;
             default:
                 break;

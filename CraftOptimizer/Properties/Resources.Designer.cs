@@ -73,9 +73,9 @@ namespace CraftOptimizer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap exc_mat1 {
+        internal static System.Drawing.Bitmap exc_nontradeable_mat1 {
             get {
-                object obj = ResourceManager.GetObject("exc_mat1", resourceCulture);
+                object obj = ResourceManager.GetObject("exc_nontradeable_mat1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -83,9 +83,9 @@ namespace CraftOptimizer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap exc_mat2 {
+        internal static System.Drawing.Bitmap exc_nontradeable_mat2 {
             get {
-                object obj = ResourceManager.GetObject("exc_mat2", resourceCulture);
+                object obj = ResourceManager.GetObject("exc_nontradeable_mat2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -93,9 +93,9 @@ namespace CraftOptimizer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap exc_mat3 {
+        internal static System.Drawing.Bitmap exc_nontradeable_mat3 {
             get {
-                object obj = ResourceManager.GetObject("exc_mat3", resourceCulture);
+                object obj = ResourceManager.GetObject("exc_nontradeable_mat3", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -103,9 +103,9 @@ namespace CraftOptimizer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap exc_mat4 {
+        internal static System.Drawing.Bitmap exc_tradeable_mat1 {
             get {
-                object obj = ResourceManager.GetObject("exc_mat4", resourceCulture);
+                object obj = ResourceManager.GetObject("exc_tradeable_mat1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -113,9 +113,9 @@ namespace CraftOptimizer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap fis_mat1 {
+        internal static System.Drawing.Bitmap exc_tradeable_mat2 {
             get {
-                object obj = ResourceManager.GetObject("fis_mat1", resourceCulture);
+                object obj = ResourceManager.GetObject("exc_tradeable_mat2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -123,9 +123,9 @@ namespace CraftOptimizer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap fis_mat2 {
+        internal static System.Drawing.Bitmap exc_tradeable_mat3 {
             get {
-                object obj = ResourceManager.GetObject("fis_mat2", resourceCulture);
+                object obj = ResourceManager.GetObject("exc_tradeable_mat3", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -133,9 +133,9 @@ namespace CraftOptimizer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap fis_mat3 {
+        internal static System.Drawing.Bitmap exc_tradeable_mat4 {
             get {
-                object obj = ResourceManager.GetObject("fis_mat3", resourceCulture);
+                object obj = ResourceManager.GetObject("exc_tradeable_mat4", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -143,9 +143,9 @@ namespace CraftOptimizer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap fis_mat4 {
+        internal static System.Drawing.Bitmap fis_nontradeable_mat1 {
             get {
-                object obj = ResourceManager.GetObject("fis_mat4", resourceCulture);
+                object obj = ResourceManager.GetObject("fis_nontradeable_mat1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -153,9 +153,9 @@ namespace CraftOptimizer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap fro_mat1 {
+        internal static System.Drawing.Bitmap fis_nontradeable_mat2 {
             get {
-                object obj = ResourceManager.GetObject("fro_mat1", resourceCulture);
+                object obj = ResourceManager.GetObject("fis_nontradeable_mat2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -163,9 +163,9 @@ namespace CraftOptimizer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap fro_mat2 {
+        internal static System.Drawing.Bitmap fis_nontradeable_mat3 {
             get {
-                object obj = ResourceManager.GetObject("fro_mat2", resourceCulture);
+                object obj = ResourceManager.GetObject("fis_nontradeable_mat3", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -173,9 +173,9 @@ namespace CraftOptimizer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap fro_mat3 {
+        internal static System.Drawing.Bitmap fis_tradeable_mat1 {
             get {
-                object obj = ResourceManager.GetObject("fro_mat3", resourceCulture);
+                object obj = ResourceManager.GetObject("fis_tradeable_mat1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -183,9 +183,9 @@ namespace CraftOptimizer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap fro_mat4 {
+        internal static System.Drawing.Bitmap fis_tradeable_mat2 {
             get {
-                object obj = ResourceManager.GetObject("fro_mat4", resourceCulture);
+                object obj = ResourceManager.GetObject("fis_tradeable_mat2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -193,9 +193,9 @@ namespace CraftOptimizer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap hun_mat1 {
+        internal static System.Drawing.Bitmap fis_tradeable_mat3 {
             get {
-                object obj = ResourceManager.GetObject("hun_mat1", resourceCulture);
+                object obj = ResourceManager.GetObject("fis_tradeable_mat3", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -203,9 +203,9 @@ namespace CraftOptimizer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap hun_mat2 {
+        internal static System.Drawing.Bitmap fis_tradeable_mat4 {
             get {
-                object obj = ResourceManager.GetObject("hun_mat2", resourceCulture);
+                object obj = ResourceManager.GetObject("fis_tradeable_mat4", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -213,9 +213,9 @@ namespace CraftOptimizer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap hun_mat3 {
+        internal static System.Drawing.Bitmap fro_nontradeable_mat1 {
             get {
-                object obj = ResourceManager.GetObject("hun_mat3", resourceCulture);
+                object obj = ResourceManager.GetObject("fro_nontradeable_mat1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -223,9 +223,9 @@ namespace CraftOptimizer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap hun_mat4 {
+        internal static System.Drawing.Bitmap fro_nontradeable_mat2 {
             get {
-                object obj = ResourceManager.GetObject("hun_mat4", resourceCulture);
+                object obj = ResourceManager.GetObject("fro_nontradeable_mat2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -233,9 +233,9 @@ namespace CraftOptimizer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap log_mat1 {
+        internal static System.Drawing.Bitmap fro_nontradeable_mat3 {
             get {
-                object obj = ResourceManager.GetObject("log_mat1", resourceCulture);
+                object obj = ResourceManager.GetObject("fro_nontradeable_mat3", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -243,9 +243,9 @@ namespace CraftOptimizer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap log_mat2 {
+        internal static System.Drawing.Bitmap fro_tradeable_mat1 {
             get {
-                object obj = ResourceManager.GetObject("log_mat2", resourceCulture);
+                object obj = ResourceManager.GetObject("fro_tradeable_mat1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -253,9 +253,9 @@ namespace CraftOptimizer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap log_mat3 {
+        internal static System.Drawing.Bitmap fro_tradeable_mat2 {
             get {
-                object obj = ResourceManager.GetObject("log_mat3", resourceCulture);
+                object obj = ResourceManager.GetObject("fro_tradeable_mat2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -263,9 +263,9 @@ namespace CraftOptimizer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap log_mat4 {
+        internal static System.Drawing.Bitmap fro_tradeable_mat3 {
             get {
-                object obj = ResourceManager.GetObject("log_mat4", resourceCulture);
+                object obj = ResourceManager.GetObject("fro_tradeable_mat3", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -273,9 +273,9 @@ namespace CraftOptimizer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap min_mat1 {
+        internal static System.Drawing.Bitmap fro_tradeable_mat4 {
             get {
-                object obj = ResourceManager.GetObject("min_mat1", resourceCulture);
+                object obj = ResourceManager.GetObject("fro_tradeable_mat4", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -283,9 +283,9 @@ namespace CraftOptimizer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap min_mat2 {
+        internal static System.Drawing.Bitmap hun_nontradeable_mat1 {
             get {
-                object obj = ResourceManager.GetObject("min_mat2", resourceCulture);
+                object obj = ResourceManager.GetObject("hun_nontradeable_mat1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -293,9 +293,9 @@ namespace CraftOptimizer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap min_mat3 {
+        internal static System.Drawing.Bitmap hun_nontradeable_mat2 {
             get {
-                object obj = ResourceManager.GetObject("min_mat3", resourceCulture);
+                object obj = ResourceManager.GetObject("hun_nontradeable_mat2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -303,9 +303,199 @@ namespace CraftOptimizer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap min_mat4 {
+        internal static System.Drawing.Bitmap hun_nontradeable_mat3 {
             get {
-                object obj = ResourceManager.GetObject("min_mat4", resourceCulture);
+                object obj = ResourceManager.GetObject("hun_nontradeable_mat3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap hun_tradeable_mat1 {
+            get {
+                object obj = ResourceManager.GetObject("hun_tradeable_mat1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap hun_tradeable_mat2 {
+            get {
+                object obj = ResourceManager.GetObject("hun_tradeable_mat2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap hun_tradeable_mat3 {
+            get {
+                object obj = ResourceManager.GetObject("hun_tradeable_mat3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap hun_tradeable_mat4 {
+            get {
+                object obj = ResourceManager.GetObject("hun_tradeable_mat4", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap log_nontradeable_mat1 {
+            get {
+                object obj = ResourceManager.GetObject("log_nontradeable_mat1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap log_nontradeable_mat2 {
+            get {
+                object obj = ResourceManager.GetObject("log_nontradeable_mat2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap log_nontradeable_mat3 {
+            get {
+                object obj = ResourceManager.GetObject("log_nontradeable_mat3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap log_tradeable_mat1 {
+            get {
+                object obj = ResourceManager.GetObject("log_tradeable_mat1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap log_tradeable_mat2 {
+            get {
+                object obj = ResourceManager.GetObject("log_tradeable_mat2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap log_tradeable_mat3 {
+            get {
+                object obj = ResourceManager.GetObject("log_tradeable_mat3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap log_tradeable_mat4 {
+            get {
+                object obj = ResourceManager.GetObject("log_tradeable_mat4", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap log_tradeable_mat5 {
+            get {
+                object obj = ResourceManager.GetObject("log_tradeable_mat5", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap min_nontradeable_mat1 {
+            get {
+                object obj = ResourceManager.GetObject("min_nontradeable_mat1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap min_nontradeable_mat2 {
+            get {
+                object obj = ResourceManager.GetObject("min_nontradeable_mat2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap min_nontradeable_mat3 {
+            get {
+                object obj = ResourceManager.GetObject("min_nontradeable_mat3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap min_tradeable_mat1 {
+            get {
+                object obj = ResourceManager.GetObject("min_tradeable_mat1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap min_tradeable_mat2 {
+            get {
+                object obj = ResourceManager.GetObject("min_tradeable_mat2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap min_tradeable_mat3 {
+            get {
+                object obj = ResourceManager.GetObject("min_tradeable_mat3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap min_tradeable_mat4 {
+            get {
+                object obj = ResourceManager.GetObject("min_tradeable_mat4", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
